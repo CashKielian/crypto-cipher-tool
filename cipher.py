@@ -1,6 +1,6 @@
 # Asks the user for a message an a shift number
 message = input("Enter a message to encrypt: ")
-shift = input("Enter a secret shift number(1-10): ")
+shift = int(input("Enter a secret shift number(1-10): "))
 
 encrypted_messgae = ""
 
