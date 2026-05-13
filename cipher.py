@@ -2,7 +2,7 @@
 message = input("Enter a message to encrypt: ")
 shift = int(input("Enter a secret shift number(1-10): "))
 
-encrypted_messgae = ""
+encrypted_message = ""
 
 print("\n--- Running Cryptographic Encryption ---")
 
